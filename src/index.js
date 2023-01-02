@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//dependencies and packages inbuilt
+import React from "react";
+import ReactDOM from "react-dom/client";  //virtual dom
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));  //dom
 root.render(
+  //jsx
+  // component (provide error)
   <React.StrictMode>
     <App />
   </React.StrictMode>
